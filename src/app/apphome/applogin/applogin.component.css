@@ -1,0 +1,54 @@
+.nav {
+    display: flex;
+    align-items: center;
+    height: 90px;
+  }
+  
+  
+  
+  /*Home Sections*/
+  
+  #home {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 200px;
+    height: 330px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  #home::before {
+    content: " ";
+    position: absolute;
+   
+   height: 90%;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.1;
+  }
+  
+  #home h1 {
+    color: white;
+    font-family: "Bree Serif", serif;
+    font-size: 3rem;
+    text-align: center;
+  }
+  #home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Bree Serif", serif;
+  }
+  
+  .btn {
+    padding: 6px 20px;
+    border: none;
+    background-color: #fc6b03;
+    margin: 17px;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    font-family: "Bree Serif", serif;
+    cursor: pointer;
+  }
